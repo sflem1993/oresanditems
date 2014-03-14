@@ -1,0 +1,18 @@
+[
+{
+    "modid" : "oresanditems",
+    "name" : "Ores and Items",
+    "version" : "1.0",
+    "credits" : "Thanks to Kyle for inspiring me to make this",
+    "authors": [
+     "Sean"
+    ],
+    "description" : "several ores and items",
+    "url" : "",
+    "updateurl" : "",
+    "logoFile" : "",
+    "parent" : "",
+    "screenshots" : [
+    ]
+}
+]    
