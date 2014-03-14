@@ -1,0 +1,24 @@
+Name - "oresanditems"
+version 1.0
+Mod for Minecraft 1.6.4
+Built using Forge and MCP
+Author - Sean Fleming
+
+
+To Install -download zip from http://www.mediafire.com/download/62870451z8vq3n8/oresanditems.zip
+move this zip file into the AppData\Roaming\.minecraft\mods folder 
+should be at C:\Users\*YourUsername*\AppData\Roaming\.minecraft\mods folder
+-- note -- AppData is a hidden folder -turn on view hidden items to see in file explorer or type %APPDATA% in Run
+That's it!
+
+As of now the mod introduces a new ore, BlockJadeite, and two new items - JadeeiteGem and JadeiteSword.
+
+BLockJadeite spans randomly from layers 1-18 in veins of ore up to ten. Each block drops one JadeiteGem. 
+Using two JadeiteGems and one stick in a crafting table creates a JadeiteSword. 
+It is currently has +14 attack damage, double that of the diamond sword.
+
+Next Updates:
+  
+  Jadeite Armor - coming soon!
+  more new ores!
+  creative/fun weapons (some combining multiple types of new ores)
