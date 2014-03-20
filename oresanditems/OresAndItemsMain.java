@@ -46,11 +46,4 @@ public class OresAndItemsMain {
 		new GenerationHandler();
 	}
 	
-	
-	// Event after mod loads - if needed for interactions with other running mods. Future version!
-	@EventHandler
-	public void modsLoaded(FMLPostInitializationEvent Event) {
-		
-	}
-	
 }

@@ -2,9 +2,6 @@ package oresanditems.blocks;
 
 public class BlockInfo {
 	
-	//location of block textures
-	public static final String TEXTURE_LOCATION = "oresanditems";
-	
 	//info for our block BlockJadeite
 	public static int blockjadeite_id;
 	public static final String BLOCKJADEITE_KEY = "BLOCKJADEITE";
