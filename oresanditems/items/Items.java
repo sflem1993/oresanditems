@@ -10,7 +10,7 @@ import cpw.mods.fml.common.registry.LanguageRegistry;
 
 public class Items {
 
-	public static Item wand;
+	public static Item MagicWand;
 	public static Item JadeiteGem;
 	public static Item JadeiteSword;
 	public static EnumToolMaterial toolJadeite;
@@ -24,23 +24,21 @@ public class Items {
 		toolJadeite = EnumHelper.addToolMaterial("JADEITE", 3, 2000, 15.0F, 10.0F, 35);
 		JadeiteGem = new JadeiteGem(ItemInfo.jadeitegem_id);
 		JadeiteSword = new JadeiteSword(ItemInfo.jadeitesword_id, toolJadeite);
+		MagicWand = new ItemMagicWand(ItemInfo.magicwand_id);
 	}
 	
 	// Adds names of JadeiteGem and JadeiteSword to LanguageRegistry
 	public static void addNames(){
 		LanguageRegistry.addName(JadeiteGem, ItemInfo.JADEITEGEM_NAME);
 		LanguageRegistry.addName(JadeiteSword, ItemInfo.JADEITESWORD_NAME);
+		LanguageRegistry.addName(MagicWand, ItemInfo.MAGICWAND_NAME);
 	}
 	
-	//For future versions with armor!
-	public static void addArmor(){
-		
-	}
-	
-	// Adds recipe for JadeiteSword (with JadeiteGem in both a stack or separate boxes) to Crafting Table
+	// Adds recipe for JadeiteSword (with JadeiteGem in both a stack or separate boxes) and Magic Wand to Crafting Table
 	public static void registerRecipes() {		
 		GameRegistry.addShapelessRecipe(new ItemStack(JadeiteSword, 1), new Object[] {new ItemStack(JadeiteGem), new ItemStack(JadeiteGem), new ItemStack(Item.stick)});
 		GameRegistry.addShapelessRecipe(new ItemStack(JadeiteSword, 1), new Object[] {new ItemStack(JadeiteGem, 2), new ItemStack(Item.stick)});
+		GameRegistry.addShapelessRecipe(new ItemStack(MagicWand, 1), new Object[] {new ItemStack(JadeiteGem, 4), new ItemStack(Item.diamond, 2)});
 	}
 	
 }

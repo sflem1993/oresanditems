@@ -2,9 +2,6 @@ package oresanditems.items;
 
 public class ItemInfo {
 	
-	//set location where mod will look for item textures
-	public static final String TEXTURE_LOCATION = "oresanditems";
-	
 	//info for item JadeiteGem
 	public static int jadeitegem_id;
 	public static final String JADEITEGEM_KEY = "JadeiteGem";
@@ -21,5 +18,12 @@ public class ItemInfo {
 	public static final String JADEITESWORD_NAME = "Jadeite Sword";
 	public static final String JADEITESWORD_ICON = "jadeitesword";
 
+	//info for item ItemMagicWand
+	public static int magicwand_id;
+	public static final String MAGICWAND_KEY = "MagicWand";
+	public static final int MAGICWAND_DEFAULT= 24202;
+	public static final String MAGICWAND_UNLOCALIZED_NAME = "magicflingywand";
+	public static final String MAGICWAND_NAME = "The Magic Wand";
+	public static final String MAGICWAND_ICON = "wand";
 	
 }
