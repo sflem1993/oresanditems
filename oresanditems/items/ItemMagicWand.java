@@ -23,7 +23,7 @@ public class ItemMagicWand extends Item {
 			setUnlocalizedName(ItemInfo.MAGICWAND_UNLOCALIZED_NAME);
 		}
 
-		//When used on an entity, that entity is flung into the air, and the itemDamage is increased by 1
+		//When used on an entity, that entity is flung into the air, resulting in damage when it hits the earth (unless it can fly)
 		@Override
 		public boolean itemInteractionForEntity(ItemStack itemstack, EntityPlayer player, EntityLivingBase target) {
 			if(!target.worldObj.isRemote)
